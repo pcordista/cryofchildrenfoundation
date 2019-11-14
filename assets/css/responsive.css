@@ -1,0 +1,217 @@
+.menumobile {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    padding: .5rem;
+}
+
+.menu-logo-mobile {
+    width: 40%;
+    transition: .3s
+}
+
+.menumobile_toogle {
+    color: var(--purple);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    cursor: pointer
+}
+
+.menumobile_toogle>i {
+    font-size: 2.5rem
+}
+
+.pushmenu {
+    /*this is the nav*/
+    background: black;
+    font-family: Montserrat;
+    width: 240px;
+    color: white;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+    padding: 2rem 0
+}
+
+.menu-logo-push {
+    width: 70%
+}
+
+.closemenu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.pushmenu a {
+    display: block;
+    /* drops the nav vertically*/
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid lightgray;
+    padding: 14px;
+}
+
+.pushmenu a:hover {
+    background: #00A287;
+    color: white
+}
+
+.pushmenu a:active {
+    background: #454f5c;
+    color: #fff;
+}
+
+.pushmenu-left {
+    left: -240px;
+}
+
+.pushmenu-left.pushmenu-open {
+    left: 0;
+}
+
+.pushmenu-push {
+    overflow-x: hidden;
+    position: relative;
+    left: 0;
+}
+
+.pushmenu-push-toright {
+    left: 240px;
+}
+
+/*Transition*/
+
+.pushmenu, .pushmenu-push {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 600px) {
+    .margin_1_top_mob {
+        margin-top: 1rem
+    }
+    /* BANNER */
+    .banner .full_absolute {
+        top: initial !important;
+        bottom: 2rem
+    }
+    .banner-text {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    /* GIRO */
+    .giro {
+        margin-top: 3rem
+    }
+    .giro .sectionStartTwo {
+        margin-top: 3rem !important
+    }
+    /* PARALLAX */
+    .parallax-text {
+        font-size: 3rem;
+    }
+    /* ATIVIDADES */
+    .atividades-grid .relative {
+        width: 90% !important;
+        margin: 1rem auto;
+    }
+    /* SHAPES */
+    .shape-container {
+        max-height: initial !important;
+        padding: 1rem !important;
+    }
+    .shape-container>div>.section-title {
+        text-align: left;
+    }
+    .shape-container .left-align {
+        text-align: right !important;
+    }
+    /* BLOG CATEGORIA */
+    .blog-text {
+        font-size: 13px;
+    }
+    /* BLOG LIST */
+    .blog-last-post {
+        border: 2px solid #ddd;
+        padding: 0 0 1rem 0 !important
+    }
+    .posts-view .post-title {
+        font-size: 12px;
+        height: 36px;
+        overflow: hidden
+    }
+    .posts-view .post-text {
+        font-size: 10px;
+        height: 45px;
+        overflow: hidden;
+        line-height: 13px;
+    }
+    /* NEWSLETTER */
+    .newsletter-title {
+        font-size: 1.5rem
+    }
+    .newsletter-subtitle {
+        font-size: 12px;
+    }
+    /* FOOTER */
+    footer  {
+        background-image: url('../img/bg-footer-mobile.jpg');
+    }
+    footer .row .col {
+        margin-bottom: 2rem
+    }
+    .footer-logo {
+        width: 60% !important
+    }
+    .copyright {
+        left: 5%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerEighteen {
+        width: 90% !important;
+        margin-left: 5% !important
+    }
+    .menu-logo-mobile {
+        max-width: 160px !important;
+    }
+    /* BANNER */
+    .banner-text {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    /* ATIVIDADES */
+    .atividades-grid .relative {
+        width: 90% !important;
+        margin: 1rem auto;
+    }
+    /* SHAPES */
+    .shape-container {
+        max-height: initial !important;
+        padding: 1rem !important;
+    }
+    /* BLOG CATEGORIA */
+    .blog-text {
+        font-size: 13px;
+    }
+    .blog-last {
+        margin-top: 4%;
+    }
+    
+}
+
+@media (min-width: 1600px) {
+    .container, .containerEighteen {
+        width: 60% !important;
+        margin: 0 auto !important
+    }
+}
