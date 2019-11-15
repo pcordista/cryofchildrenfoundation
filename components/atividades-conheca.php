@@ -8,7 +8,7 @@
             <div class="col s6 m4 l4 atividades-grid">
                 <div class="relative">
                     <a href="page-atividade-educacao.php">
-                        <img src="assets/img/atividades.jpg" alt="">
+                        <img src="assets/img/educacao.jpg" alt="">
                         <div class="atividades-text textUpper lemonBold white-text">
                             <div>
                                 educação
@@ -20,7 +20,7 @@
             <div class="col s6 m4 l4 atividades-grid">
                 <div class="relative">
                     <a href="page-atividade-saude.php">
-                        <img src="assets/img/atividades-2.jpg" alt="">
+                        <img src="assets/img/saude.jpg" alt="">
                         <div class="atividades-text textUpper lemonBold white-text">
                             <div>
                                 saúde
@@ -32,7 +32,7 @@
             <div class="col s6 m4 l4 atividades-grid">
                 <div class="relative">
                     <a href="page-atividade-saneamento.php">
-                        <img src="assets/img/atividades-3.jpg" alt="">
+                        <img src="assets/img/saneamento.jpg" alt="">
                         <div class="atividades-text textUpper lemonBold white-text">
                             <div>
                                 água<BR>higiene e<BR>saneamento
@@ -45,7 +45,7 @@
             <div class="col s6 m4 l4 atividades-grid">
                 <div class="relative">
                     <a href="page-atividade-seguranca.php">
-                        <img src="assets/img/atividades-4.jpg" alt="">
+                        <img src="assets/img/agricultura.jpg" alt="">
                         <div class="atividades-text textUpper lemonBold white-text">
                             <div>
                                 segurança alimentar
@@ -58,7 +58,7 @@
             <div class="col s6 m4 l4 atividades-grid">
                 <div class="relative">
                     <a href="page-atividade-agricultura.php">
-                        <img src="assets/img/atividades-5.jpg" alt="">
+                        <img src="assets/img/agricultura.jpg" alt="">
                         <div class="atividades-text textUpper lemonBold white-text">
                             <div>
                                 agricultura
@@ -71,7 +71,7 @@
             <div class="col s6 m4 l4 atividades-grid">
                 <div class="relative">
                     <a href="page-atividade-microfinancas.php">
-                        <img src="assets/img/atividades-6.jpg" alt="">
+                        <img src="assets/img/agricultura.jpg" alt="">
                         <div class="atividades-text textUpper lemonBold white-text">
                             <div>
                                 microfinanças
